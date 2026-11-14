@@ -1,0 +1,15 @@
+{
+  "name": "cashflow-planning",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "13-week cash flow planning, allocation and collection-delay scenarios",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node --test tests/domain.test.mjs tests/repo.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
